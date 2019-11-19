@@ -8,7 +8,7 @@ public class GuineaFowl extends AbstractAnimal implements SmallAnimal{
         super(dateOfBirth);
     }
 
-    @Override
+
     public void feed() {
         System.out.println("Guinea Fowl: Thanks keeper for feeding me today, it was delicioso");
         super.feed();

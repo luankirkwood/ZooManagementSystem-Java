@@ -13,17 +13,17 @@ public class Zebra extends AbstractAnimal implements LargeAnimal, CanBeGroomed, 
         super(dateOfBirth);
     }
 
-    @Override
+
     public void groom() {
         lastGroomed = LocalDateTime.now();
     }
 
-    @Override
+
     public void clean(){
         lastCleaned = LocalDateTime.now();
     }
 
-    @Override
+
     public String toString() {
         return MessageFormat.format("{0}; Last Groomed {1}; Last Cleaned {2}", super.toString(), lastGroomed, lastCleaned);
     }

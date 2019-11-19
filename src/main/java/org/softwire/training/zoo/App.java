@@ -1,16 +1,11 @@
 package org.softwire.training.zoo;
 
 import org.softwire.training.zoo.models.*;
-import org.softwire.training.zoo.services.CleanScheduler;
-import org.softwire.training.zoo.services.FeedingScheduler;
-import org.softwire.training.zoo.services.GroomingScheduler;
 import org.softwire.training.zoo.services.Scheduler;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class App {

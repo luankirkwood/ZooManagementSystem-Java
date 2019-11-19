@@ -10,12 +10,12 @@ public class RedPanda extends AbstractAnimal implements SmallAnimal, CanBeGroome
 
     public RedPanda(LocalDate dateOfBirth) {super(dateOfBirth);}
 
-    @Override
+
     public void groom() {
         lastGroomed = LocalDateTime.now();
     }
 
-    @Override
+
     public String toString() {
         return MessageFormat.format("{0}; Last Groomed {1}", super.toString(), lastGroomed);
     }
